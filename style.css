@@ -97,8 +97,14 @@ body {
 }
 
 /* Flip left character portrait to face right character */
-.character-portrait:first-child {
+#character-left {
   transform: scaleX(-1);
+}
+
+/* Counter-transform left character name so it appears normal */
+#character-left-name {
+  transform: scaleX(-1);
+  display: inline-block;
 }
 
 .character-name {

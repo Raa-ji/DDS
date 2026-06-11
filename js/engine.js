@@ -55,6 +55,7 @@ export function renderScene(sceneId) {
     scene.characters.forEach((char, index) => {
       const charDiv = document.createElement('div');
       charDiv.className = 'character-portrait';
+      charDiv.id = 'character-' + char.position;
       charDiv.style.position = 'absolute';
       charDiv.style.top = '0';
       charDiv.style.bottom = '0';
@@ -72,6 +73,7 @@ export function renderScene(sceneId) {
 
       const charImg = document.createElement('img');
       charImg.src = char.image;
+      charImg.id = 'character-' + char.position + '-img';
       charImg.style.width = '80%';
       charImg.style.height = '80%';
       charImg.style.objectFit = 'contain';
@@ -80,6 +82,7 @@ export function renderScene(sceneId) {
 
       const charName = document.createElement('div');
       charName.className = 'character-name';
+      charName.id = 'character-' + char.position + '-name';
       charName.textContent = char.name;
       charName.style.background = 'linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0) 100%)';
       charName.style.padding = '4px 8px';
