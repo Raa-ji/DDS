@@ -34,7 +34,6 @@ export function renderScene(sceneId) {
 
   // Update visual section
   const sceneImage = document.getElementById('scene-image');
-  const speakerName = document.getElementById('speaker-name');
   const artworkContainer = document.getElementById('artwork-container');
 
   // Clear existing character elements
@@ -111,11 +110,7 @@ export function renderScene(sceneId) {
     }
   }
 
-  if (scene.speaker) {
-    speakerName.textContent = scene.speaker;
-  } else {
-    speakerName.textContent = '';
-  }
+  // Speaker info removed - will use different visual method in future
 
   // Update dialog section
   const sceneText = document.getElementById('scene-text');
