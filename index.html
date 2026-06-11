@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sound City - The Date</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+    <!-- Top Section: Visual Area -->
+    <div id="visual-section">
+      <div id="artwork-container">
+        <img id="scene-image" src="" alt="Scene artwork">
+      </div>
+      <div id="speaker-info">
+        <h2 id="speaker-name"></h2>
+      </div>
+    </div>
+
+    <!-- Bottom Section: Text and Choices -->
+    <div id="dialog-section">
+      <div id="text-container">
+        <p id="scene-text"></p>
+        <p id="scene-monologue" class="monologue"></p>
+      </div>
+      <div id="choices-container">
+        <!-- Choice buttons will be injected here -->
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="js/state.js"></script>
+  <script type="module" src="js/engine.js"></script>
+  <script type="module" src="js/scenes/placeholder.js"></script>
+  <script type="module" src="js/scenes/cafe_scene.js"></script>
+  <script type="module">
+    // Initialize the game when DOM is ready
+    document.addEventListener('DOMContentLoaded', async () => {
+      const { initGame } = await import('./js/engine.js');
+      initGame('cafe_wait');
+    });
+  </script>
+</body>
+</html>
