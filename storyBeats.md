@@ -29,3 +29,6 @@ Dart is asking Maya out on a date. They're texting back and forth while she's on
 Dart has some options on what sorts of questions to ask Maya during this scene. We should limit the player to only being able to ask ~1/3 of the available questions, in order to keep things interesting and add some replay value.
 
 This will give the player the opportunity to learn some things about Maya. For example, she could reveal that she loves classical music or that she has some nostalgia for the amusement park. The player would potentially get access to new dialogue options later in the game based on which questions he asks during this phase.
+
+## Second scene
+This will be the first stage of the date
