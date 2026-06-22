@@ -3,41 +3,36 @@
 // Copy this file and rename it for your new scene (e.g., `my_new_scene.js`).
 
 // javascript
-// Scene: Dart calls Maya to ask her to go on a date
-// Location: Thunderbeers
-// Characters: Dart, Maya
+// Scene: [Brief description of what happens in this scene]
+// Location: [Where the scene takes place]
+// Characters: [List of characters involved]
 
 import { registerScene } from '../engine.js';
 
 registerScene({
-  id: 'prologue_0',
-  speaker: 'Dart',
+  id: 'prologue_a_1',
+  speaker: 'Maya',
   characters: [
     { name: 'Dart', image: 'Dart.png', position: 'left' },
+    { name: 'Maya', image: 'Maya-Wen.png', position: 'right' },
     // Add more characters as needed
   ],
-  text: "It's been a rough week for Dart. He's been dealing with his old debts to the Madrona Marauders, and has had a few really intense jobs. He's having a cold one with Big Mike when he decides it would be nice to have a date with Maya. He decides to text her and get some plans formulated.",
- // monologue: "Your inner thoughts and observations appear here. This reveals what the protagonist is really thinking.",
-  image: "backgrounds/Thunderbeers.jpeg",
+  text: "Sure! What do you have in mind?",
+  // monologue: "Your inner thoughts and observations appear here. This reveals what the protagonist is really thinking.",
+  image: "backgrounds/Thunderbeers.jpg",
   options: [
     {
-      text: "Be confident. Ladies love a man with confidence!",
-      nextScene: 'prologue_a_1',
-      vibeChange: { stability: 0, excitement: 0, class: 0 },
-      // flagSet: 'optional_flag_name'
+      text: "Suggest starting with getting something for dinner",
+      nextScene: 'prologue_1',
+      vibeChange: { stability: 0, excitement: 0 },
+    //  flagSet: 'optional_flag_name'
     },
     {
-      text: "Be casual - don't come on too strong.",
-      nextScene: 'prologue_b_1',
-      vibeChange: { stability: 0, excitement: 0, class: 0 }
-      // flagSet: 'opptional_flag_name'
-    },
-    {
-      text: "Send her a heartfelt text. That'll win her over!",
-      nextScene: 'prologue_c_1',
-      vibeChange: { stability: 0, excitement: 0, class: 0 },
-      // flagSet: 'optional_flag_name'
-    },
+    //  text: "Second choice",
+    //  nextScene: 'another_scene',
+    //  vibeChange: { stability: +1, excitement: +2 }
+    }
+    // Add more options as needed
   ]
 });
 
