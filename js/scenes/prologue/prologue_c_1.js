@@ -10,7 +10,7 @@
 import { registerScene } from '../engine.js';
 
 registerScene({
-  id: 'prologue_a_1',
+  id: 'prologue_c_1',
   speaker: 'Maya',
   characters: [
     { name: 'Dart', image: 'Dart.png', position: 'left' },
