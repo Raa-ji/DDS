@@ -7,7 +7,7 @@
 // Location: Thunderbeers
 // Characters: Dart, Maya
 
-import { registerScene } from '../engine.js';
+import { registerScene } from '/js/engine.js';
 
 registerScene({
   id: 'prologue_1',

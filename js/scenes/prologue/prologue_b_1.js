@@ -7,7 +7,7 @@
 // Location: [Where the scene takes place]
 // Characters: [List of characters involved]
 
-import { registerScene } from '../engine.js';
+import { registerScene } from '/js/engine.js';
 
 registerScene({
   id: 'prologue_b_1',
