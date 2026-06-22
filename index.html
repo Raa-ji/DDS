@@ -31,13 +31,13 @@
   <script type="module" src="js/engine.js"></script>
   <script type="module">
     // Import all scene modules to register them
-    import './js/scenes/placeholder.js';
-    import './js/scenes/cafe_scene.js';
-    import './js/scenes/prologue/prologue_0.js';
+    import '/js/scenes/placeholder.js';
+    import '/js/scenes/cafe_scene.js';
+    import '/js/scenes/prologue/prologue_0.js';
 
     // Initialize the game when DOM is ready
     document.addEventListener('DOMContentLoaded', async () => {
-      const { initGame } = await import('./js/engine.js');
+      const { initGame } = await import('/js/engine.js');
       initGame('prologue_0');
     });
   </script>
