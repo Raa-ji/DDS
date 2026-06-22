@@ -19,7 +19,7 @@ registerScene({
   ],
   text: "The scene description and dialogue go here. This is what the characters say and do.",
   monologue: "Your inner thoughts and observations appear here. This reveals what the protagonist is really thinking.",
-  image: "backgrounds/scene_background.jpg",
+  image: "backgrounds/Thunderbeers.jpeg",
   options: [
     {
       text: "First choice - what the player can say or do",

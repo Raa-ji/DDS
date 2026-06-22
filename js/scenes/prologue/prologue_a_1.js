@@ -19,7 +19,7 @@ registerScene({
   ],
   text: "That sounds like fun! What did you have in mind?",
   // monologue: "Your inner thoughts and observations appear here. This reveals what the protagonist is really thinking.",
-  image: "backgrounds/Thunderbeers.jpg",
+  image: "backgrounds/Thunderbeers.jpeg",
   options: [
     {
       text: "Suggest starting with getting something for dinner",

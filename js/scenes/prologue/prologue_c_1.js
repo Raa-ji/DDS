@@ -19,7 +19,7 @@ registerScene({
   ],
   text: "You're so sweet! I'd love to go out on a date with you. What are you thinking?",
   // monologue: "Your inner thoughts and observations appear here. This reveals what the protagonist is really thinking.",
-  image: "backgrounds/Thunderbeers.jpg",
+  image: "backgrounds/Thunderbeers.jpeg",
   options: [
     {
       text: "Suggest starting with getting something for dinner",
