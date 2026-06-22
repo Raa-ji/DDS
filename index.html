@@ -29,10 +29,12 @@
 
   <script type="module" src="js/state.js"></script>
   <script type="module" src="js/engine.js"></script>
-  <script type="module" src="js/scenes/placeholder.js"></script>
-  <script type="module" src="js/scenes/cafe_scene.js"></script>
-<script type="module" src="js/scenes/prologue/prologue_0.js"></script>
-<script type="module">
+  <script type="module">
+    // Import all scene modules to register them
+    import './js/scenes/placeholder.js';
+    import './js/scenes/cafe_scene.js';
+    import './js/scenes/prologue/prologue_0.js';
+
     // Initialize the game when DOM is ready
     document.addEventListener('DOMContentLoaded', async () => {
       const { initGame } = await import('./js/engine.js');

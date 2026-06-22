@@ -182,7 +182,7 @@ export function goToScene(sceneId) {
 }
 
 // Initialize the game
-export function initGame(startSceneId = 'intro') {
+export function initGame(startSceneId = 'prologue_0') {
   gameState.load();
   const startScene = getScene(startSceneId);
   if (startScene) {
