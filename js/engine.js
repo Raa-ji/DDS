@@ -194,3 +194,4 @@ export function initGame(startSceneId = 'prologue_0') {
 
 // Expose initGame globally for HTML script tag usage
 window.initGame = initGame;
+
