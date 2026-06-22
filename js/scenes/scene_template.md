@@ -7,7 +7,7 @@ Copy this file and rename it for your new scene (e.g., `my_new_scene.js`).
 // Location: [Where the scene takes place]
 // Characters: [List of characters involved]
 
-import { registerScene } from '/js/engine.js';
+import { registerScene } from '/DDS/js/engine.js';
 
 registerScene({
   id: 'scene_id_placeholder',
