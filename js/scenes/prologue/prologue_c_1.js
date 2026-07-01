@@ -27,11 +27,11 @@ registerScene({
       vibeChange: { stability: 0, excitement: 0 },
     //  flagSet: 'optional_flag_name'
     },
-    {
+   // {
     //  text: "Second choice",
     //  nextScene: 'another_scene',
     //  vibeChange: { stability: +1, excitement: +2 }
-    }
+   // }
     // Add more options as needed
   ]
 });
