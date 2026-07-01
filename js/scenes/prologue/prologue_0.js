@@ -22,19 +22,19 @@ registerScene({
   options: [
     {
       text: "Be confident. Ladies love a man with confidence!",
-      nextScene: 'prologue_a_1',
+      nextScene: 'prologue_1_a',
       vibeChange: { stability: 0, excitement: 0, class: 0 },
       // flagSet: 'optional_flag_name'
     },
     {
       text: "Be casual - don't come on too strong.",
-      nextScene: 'prologue_b_1',
+      nextScene: 'prologue_1_b',
       vibeChange: { stability: 0, excitement: 0, class: 0 }
       // flagSet: 'opptional_flag_name'
     },
     {
       text: "Send her a heartfelt text. That'll win her over!",
-      nextScene: 'prologue_c_1',
+      nextScene: 'prologue_1_c',
       vibeChange: { stability: 0, excitement: 0, class: 0 },
       // flagSet: 'optional_flag_name'
     },
