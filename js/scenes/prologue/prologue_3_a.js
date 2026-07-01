@@ -10,28 +10,38 @@
 import { registerScene } from '/DDS/js/engine.js';
 
 registerScene({
-  id: 'prologue_c_1',
+  id: 'prologue_3_a',
   speaker: 'Maya',
   characters: [
     { name: 'Dart', image: 'Dart.png', position: 'left' },
     { name: 'Maya', image: 'Maya-Wen.png', position: 'right' },
     // Add more characters as needed
   ],
-  text: "You're so sweet! I'd love to go out on a date with you. What are you thinking?",
+  text: "Exciting? I think recent events were exciting enough, haha. But I do like amusement parks, just haven't had the time.",
   // monologue: "Your inner thoughts and observations appear here. This reveals what the protagonist is really thinking.",
   image: "backgrounds/Thunderbeers.jpeg",
   options: [
     {
-      text: "Suggest starting with getting something for dinner",
-      nextScene: 'prologue_1',
+      text: "Ask if she'd rather do something a little more relaxing",
+      nextScene: 'prologue_3_b',
       vibeChange: { stability: 0, excitement: 0 },
     //  flagSet: 'optional_flag_name'
     },
-   // {
-    //  text: "Second choice",
-    //  nextScene: 'another_scene',
-    //  vibeChange: { stability: +1, excitement: +2 }
-   // }
+    {
+      text: "Ask her if she'd prefer something with a little more class. What would she consider classy?",
+      nextScene: 'prologue_3_c',
+      vibeChange: { stability: +0, excitement: +0 }
+    }, 
+   {
+      text: "Ask her what makes amusement parks the pick.",
+      nextScene: 'prologue_4_a_a',
+      vibeChange: { stability: +0, excitement: +0 }
+    }, 
+    {
+      text: "If she thinks amusement parks can be exciting, why not surprise her with a new experience and take her to a race? Advise she wear something she can move around in.",
+      nextScene: 'prologue_4_a_b',
+      vibeChange: { stability: +0, excitement: +0 }
+    },
     // Add more options as needed
   ]
 });

@@ -10,24 +10,24 @@
 import { registerScene } from '/DDS/js/engine.js';
 
 registerScene({
-  id: 'prologue_a_1',
+  id: 'prologue_1_c',
   speaker: 'Maya',
   characters: [
     { name: 'Dart', image: 'Dart.png', position: 'left' },
     { name: 'Maya', image: 'Maya-Wen.png', position: 'right' },
     // Add more characters as needed
   ],
-  text: "That sounds like fun! What did you have in mind?",
+  text: "You're so sweet! I'd love to go out on a date with you. What are you thinking?",
   // monologue: "Your inner thoughts and observations appear here. This reveals what the protagonist is really thinking.",
   image: "backgrounds/Thunderbeers.jpeg",
   options: [
     {
       text: "Suggest starting with getting something for dinner",
-      nextScene: 'prologue_1',
+      nextScene: 'prologue_2',
       vibeChange: { stability: 0, excitement: 0 },
     //  flagSet: 'optional_flag_name'
     },
-    // {
+   // {
     //  text: "Second choice",
     //  nextScene: 'another_scene',
     //  vibeChange: { stability: +1, excitement: +2 }

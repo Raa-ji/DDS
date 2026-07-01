@@ -10,7 +10,7 @@
 import { registerScene } from '/DDS/js/engine.js';
 
 registerScene({
-  id: 'prologue_a_1',
+  id: 'prologue_1_a',
   speaker: 'Maya',
   characters: [
     { name: 'Dart', image: 'Dart.png', position: 'left' },
@@ -23,15 +23,15 @@ registerScene({
   options: [
     {
       text: "Suggest starting with getting something for dinner",
-      nextScene: 'prologue_1',
+      nextScene: 'prologue_2',
       vibeChange: { stability: 0, excitement: 0 },
     //  flagSet: 'optional_flag_name'
     },
-    {
+    // {
     //  text: "Second choice",
     //  nextScene: 'another_scene',
     //  vibeChange: { stability: +1, excitement: +2 }
-    }
+   // }
     // Add more options as needed
   ]
 });

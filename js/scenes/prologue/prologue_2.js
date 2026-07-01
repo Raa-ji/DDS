@@ -23,19 +23,19 @@ registerScene({
   options: [
     {
       text: "Ask if there's something exciting she'd like to do.",
-      nextScene: 'prologue_a_2',
+      nextScene: 'prologue_3_a',
       vibeChange: { stability: 0, excitement: 0, class: 0 },
       // flagSet: 'optional_flag_name'
     },
       {
         text: "How about something more relaxing? Ask her what relaxing feels like to her.",
-        nextScene: 'prologue_b_2',
+        nextScene: 'prologue_3_b',
         vibeChange: { stability: 0, excitement: 0, class: 0 },
         // flagSet: 'optional_flag_name'
       },
       {
         text: "Perhaps something fancy. What is her idea of that?",
-        nextScene: 'prologue_c_2',
+        nextScene: 'prologue_3_c',
         vibeChange: { stability: 0, excitement: 0, class: 0 },
         // flagSet: 'optional_flag_name'
       },

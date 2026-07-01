@@ -10,28 +10,38 @@
 import { registerScene } from '/DDS/js/engine.js';
 
 registerScene({
-  id: 'prologue_b_1',
+  id: 'prologue_3_b',
   speaker: 'Maya',
   characters: [
     { name: 'Dart', image: 'Dart.png', position: 'left' },
     { name: 'Maya', image: 'Maya-Wen.png', position: 'right' },
     // Add more characters as needed
   ],
-  text: "Sure! What do you have in mind?",
+  text: "Gracious, I find myself unable to do that these days; I almost forgot what it's like. The most I do is sit on my couch with a cup of tea.",
   // monologue: "Your inner thoughts and observations appear here. This reveals what the protagonist is really thinking.",
   image: "backgrounds/Thunderbeers.jpeg",
   options: [
     {
-      text: "Suggest starting with getting something for dinner",
-      nextScene: 'prologue_1',
+      text: "Ask if she'd rather do something a little more exciting",
+      nextScene: 'prologue_3_a',
       vibeChange: { stability: 0, excitement: 0 },
     //  flagSet: 'optional_flag_name'
     },
-    // {
-    //  text: "Second choice",
-    //  nextScene: 'another_scene',
-    //  vibeChange: { stability: +1, excitement: +2 }
-   // }
+    {
+      text: "Ask if she'd rather do something a little more classy. What would she consider classy?",
+      nextScene: 'prologue_3_c',
+      vibeChange: { stability: +0, excitement: +0 }
+    },
+    {
+      text: "Ask if there was anything else she used to do to relax.",
+      nextScene: 'prologue_4_b_a',
+      vibeChange: { stability: +0, excitement: +0 }
+    },
+    {
+      text: "Ask her if she prefers coffee or tea.",
+      nextScene: 'prologue_4_b_b',
+      vibeChange: { stability: +0, excitement: +0 }
+    },
     // Add more options as needed
   ]
 });
